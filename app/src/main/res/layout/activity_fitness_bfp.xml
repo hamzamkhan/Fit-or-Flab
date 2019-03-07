@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fit_flab_bg_image">
+
+    <EditText
+        android:id="@+id/edittext_bfp_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittext_bfp_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edittext_bfp_age"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="Enter Height"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittxt_bfp_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Enter Weight"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/edittext_bfp_height"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_bfp_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext_bfp_height"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/edittext_bfp_age"
+        android:text="year"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_bfp_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittxt_bfp_weight"
+        android:layout_alignStart="@+id/txt_bfp_age"
+        android:text="in"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_bfp_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edittxt_bfp_weight"
+        android:layout_alignStart="@+id/txt_bfp_height"
+        android:text="kg"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_calc_bfp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittxt_bfp_weight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Calculate"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_bfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_calc_bfp"
+        android:layout_marginTop="64dp"
+        android:text="BFP"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_res_bfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/txt_bfp"
+        android:layout_alignBottom="@+id/txt_bfp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

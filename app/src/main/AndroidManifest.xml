@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.project">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main_">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                android:noHistory="true"
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        android:noHistory="true" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUPActivity" />
+        android:noHistory="true" />
+        <activity android:name=".Exercise" />
+        <activity android:name=".Blogs" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".CookBOOK" />
+        <activity android:name=".FoodDetails" />
+        <activity android:name=".FoodDiary" />
+        <activity android:name=".FoodSearch" />
+        <activity android:name=".Summary" />
+        <activity android:name=".FitnessMenu" />
+        <activity android:name=".BodyMassIndex" />
+        <activity android:name=".BodyFatPercentage" />
+        <activity android:name=".BasalMetabolicRate" />
+        <activity android:name=".SeniorCitizenBlogs" />
+        <activity android:name=".TeenagerHealthBlogs" />
+        <activity android:name=".ViewDietSuggestions" />
+        <activity android:name=".ViewWeightGain" />
+        <activity android:name=".ViewWeightLoss" />
+        <activity android:name=".Goal" />
+        <activity android:name=".ViewGoal" />
+        <activity android:name=".CalorieKeeper" />
+        <activity android:name=".DiseaseMenu"/>
+        <activity android:name=".Autism"/>
+        <activity android:name=".Depression"/>
+        <activity
+            android:name=".Pedometer"
+            android:configChanges="orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/activity_settings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".StepService" />
+
+        <activity android:name=".NutritionEvaluator" />
+        <activity android:name=".TotalCalorie" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".CalorieSearch" />
+        <activity android:name=".CalorieDiary" />
+
+    </application>
+
+</manifest>

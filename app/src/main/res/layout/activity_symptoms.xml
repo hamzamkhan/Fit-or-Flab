@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tool"  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/text"
+        android:textSize="20dp"
+        android:text="Select a Symptom" />
+
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:id="@+id/myRadioGroup"
+        android:checkedButton="@+id/chronic_coughing" >
+        <CheckBox
+            android:id="@+id/chronic_coughing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Chronic Coughing " />
+
+
+        <CheckBox
+            android:id="@+id/grating_joints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Grating Joints" />
+
+        <CheckBox
+            android:id="@+id/bloody_vomit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Vomit (Blood)" />
+
+        <CheckBox
+            android:id="@+id/Nausea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Nausea" />
+
+
+        <CheckBox
+            android:id="@+id/spatum_cough"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Colored/ Uncolored spatum cough" />
+
+        <CheckBox
+            android:id="@+id/frquentUrination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Frequent Urination" />
+
+        <CheckBox
+            android:id="@+id/pain_abdomen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Pain in Upper abdomen" />
+
+
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Fever" />
+
+        <CheckBox
+            android:id="@+id/diaorhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Diarrohea" />
+
+        <CheckBox
+            android:id="@+id/vomiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Vomiting" />
+
+        <CheckBox
+            android:id="@+id/fatigue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Fatigue" />
+
+
+        <CheckBox
+            android:id="@+id/breathing_pain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Breathing Pain" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/diagnosis_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Diagnose"
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textViewSymptom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+</RelativeLayout>

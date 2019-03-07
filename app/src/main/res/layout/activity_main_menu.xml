@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fit_flab_bg_image"
+    >
+
+    <Button
+        android:id="@+id/pickDate"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Pick a date"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Nutrition Evaluator"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="30dp"
+        tools:text="Nutrition Evaluator" />
+
+    <Button
+        android:id="@+id/Food_diary"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Food Diary"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_diet_suggestions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tiles_shape"
+        android:text="DIET SUGGESTIONS"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="91dp"
+        android:layout_below="@+id/Food_diary"
+        android:layout_alignStart="@+id/Food_diary" />
+</RelativeLayout>

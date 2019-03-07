@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fit_flab_bg_image">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="64dp"
+        android:text="Know your fitness!"
+        android:textColor="#1BB988"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_bmi"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_fitness_menu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/tiles_shape"
+        android:elevation="0dp"
+        android:text="Body Mass Index"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_bmr"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Basal Metabolic Rate"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_below="@+id/btn_bmi"
+        android:layout_alignStart="@+id/btn_bmi" />
+
+    <Button
+        android:id="@+id/btn_bfp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Body Fat Percentage"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:layout_below="@+id/btn_bmr"
+        android:layout_alignStart="@+id/btn_bmr" />
+</RelativeLayout>

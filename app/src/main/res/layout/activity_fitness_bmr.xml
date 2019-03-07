@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fit_flab_bg_image">
+
+    <EditText
+        android:id="@+id/edittext_bmr_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Enter Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittext_bmr_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edittext_bmr_age"
+        android:layout_below="@+id/edittext_bmr_age"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Enter Weight"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edittext_bmr_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edittext_bmr_weight"
+        android:layout_below="@+id/edittext_bmr_weight"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Enter Height"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_calc_bmr"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext_bmr_gender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Calculate"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt_bmr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMR"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/txt_bmr_res"
+        android:layout_alignBottom="@+id/txt_bmr_res"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txt_bmr_res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24sp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/btn_calc_bmr"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/edittext_bmr_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edittext_bmr_height"
+        android:layout_below="@+id/edittext_bmr_height"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Enter Gender"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext_bmr_weight"
+        android:layout_marginBottom="11dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/edittext_bmr_age"
+        android:text="year(s)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext_bmr_height"
+        android:layout_alignStart="@+id/textView24"
+        android:layout_marginBottom="11dp"
+        android:text="kg(s)"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="inch"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/edittext_bmr_height"
+        android:layout_alignBottom="@+id/edittext_bmr_height"
+        android:layout_alignStart="@+id/textView29" />
+
+</RelativeLayout>

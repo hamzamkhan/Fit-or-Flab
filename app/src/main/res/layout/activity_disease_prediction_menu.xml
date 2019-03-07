@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fit_flab_bg_image">
+
+    <Button
+        android:id="@+id/btn_dp_autism"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Autism Screening Test"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_dp_depression"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tiles_shape"
+        android:text="Depression Detector"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/btn_dp_autism"
+        android:layout_alignStart="@+id/btn_dp_autism"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/btn_dp_disease"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/tiles_shape"
+        android:text="Disease Predictor"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_below="@+id/btn_dp_depression"
+        android:layout_alignStart="@+id/btn_dp_depression" />
+</RelativeLayout>

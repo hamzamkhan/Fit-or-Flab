@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.project.MainActivity"
+    android:background="@drawable/fit_flab_bg_image">
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Adult Health Articles"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tiles_shape"
+        android:textColor="#ffffff"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Child Health Articles"
+        android:id="@+id/button2"
+        android:layout_marginRight="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:background="@drawable/tiles_shape"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/button"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Teenager Health Articles"
+        android:id="@+id/button4"
+        android:background="@drawable/tiles_shape"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/button2"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Senior citizens Health Articles"
+        android:id="@+id/button3"
+        android:background="@drawable/tiles_shape"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:layout_marginTop="11dp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's get Aware!"
+        android:id="@+id/textView"
+        android:textColor="#1BB988"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

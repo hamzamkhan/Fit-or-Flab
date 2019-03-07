@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/fit_flab_bg_image">
+
+    <Button
+        android:id="@+id/btn_wloss"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="191dp"
+        android:background="@drawable/tiles_shape"
+        android:text="For Weight Loss"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_wgain" />
+
+    <Button
+        android:id="@+id/btn_wgain"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_wloss"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="@drawable/tiles_shape"
+        android:text="For Weight Gain"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,419 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tool"  android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/text"
+        android:textSize= "15dp"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="1. Sad: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q1Radio_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ1"
+            android:layout_width="95dp"
+
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q2"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q1Radio_"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="2.Changes in appetite: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q1Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q2"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ2"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ2"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q3"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q1Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="3. Poor Self image: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q3Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q3"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ3"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ3"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q4"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q3Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="" />
+
+    <RadioGroup
+        android:id="@+id/Q4Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q4"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ4"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ4"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q5"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q3Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="4. Loss of motivation: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q5Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q4"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ5"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ5"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q6"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q5Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="5. Sleep Changes: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q6Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q6"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ6"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ6"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q7"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q6Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="6. Loss of interest in life: Have you been feeling sad?" />
+
+    <RadioGroup
+        android:id="@+id/Q7Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q7"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/NoneQ7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/SometimesQ7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/OftenQ7"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ7"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/Q8"
+        android:textSize= "15dp"
+        android:layout_below="@+id/Q7Radio"
+        android:checked="true"
+        android:orientation="horizontal"
+        android:textColor="#000000"
+        android:text="7. Discouraged: Do you feel uncertain prospects?" />
+
+    <RadioGroup
+        android:id="@+id/Q8Radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Q8"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/None"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="None"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/Sometimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sometimes" />
+
+
+        <RadioButton
+            android:id="@+id/Often"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Often" />
+
+        <RadioButton
+            android:id="@+id/ContinuousQ8"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Continous" />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="CHECK"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tiles_shape"
+        android:textColor="#ffffff"
+        android:id="@+id/Check_btn"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
